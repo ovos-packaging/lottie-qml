@@ -1,0 +1,20 @@
+Source: lottie-qml
+Section: misc
+Priority: optional
+Maintainer: Harald Sitter <sitter@kde.org>
+Build-Depends: debhelper (>= 9),
+               extra-cmake-modules,
+               pkg-kde-tools (>= 0.15.16~),
+               qtdeclarative5-dev
+Standards-Version: 3.9.8
+
+Package: qml-module-org-kde-lottie
+Architecture: any
+Depends: qml-module-qt-labs-settings,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick-window2,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: ((TBD))
+ ((TBD))
